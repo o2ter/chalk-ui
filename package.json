@@ -1,5 +1,5 @@
 {
-  "name": "chalk-ui",
+  "name": "@o2ter/chalk-ui",
   "version": "1.0.0",
   "main": "dist/index",
   "module": "dist/index",
