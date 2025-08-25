@@ -67,7 +67,7 @@ export default [
           ...exts.flatMap(x => [`${x}.ts`, `${x}.mjs`, `${x}.js`]),
         ]
       }),
-      suffix === '' && scss({ fileName: 'index.web.css' }),
+      suffix === '.web' && scss({ fileName: 'index.web.css' }),
       ...rollupPlugins(exts),
     ]),
   })),
