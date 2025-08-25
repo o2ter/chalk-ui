@@ -35,8 +35,9 @@ const rollupPlugins = (exts) => [
 ];
 
 const moduleSuffixes = {
+  '.native': ['.native', ''],
   '.server': ['.server', '.web', ''],
-  '': ['.web', ''],
+  '.web': ['.web', ''],
 };
 
 export default [
