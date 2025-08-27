@@ -23,4 +23,4 @@
 //  THE SOFTWARE.
 //
 
-export * from './hooks';
+export * from './animate';
