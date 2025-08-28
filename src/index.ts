@@ -23,4 +23,5 @@
 //  THE SOFTWARE.
 //
 
+export * from './components';
 export * from './hooks';
