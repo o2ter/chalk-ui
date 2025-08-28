@@ -30,7 +30,6 @@ import { FormContext, FormInternalContext } from './context';
 
 type FormProps<Values> = {
   initialValues?: Values;
-  roles?: string[];
   disabled?: boolean;
   activity?: boolean | { actions?: string[]; delay?: number; };
   validate?: (value: any, path?: string) => Error[];
@@ -47,7 +46,6 @@ type FormProps<Values> = {
 
 export const FormBase = <Values extends object>({
   initialValues,
-  roles,
   disabled,
   activity,
   validate,
