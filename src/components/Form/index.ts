@@ -25,6 +25,16 @@
 
 import _ from 'lodash';
 import { FormBase } from './Base';
+import { FormConsumer } from './Base/context';
+import { FormGroup } from './Group';
+import { FormHiddenData } from './HiddenData';
+import { FormUploader } from './Uploader';
+
+export { useField, useForm } from './hooks';
 
 export const Form = _.assign(FormBase, {
+  Consumer: FormConsumer,
+  Group: FormGroup,
+  HiddenData: FormHiddenData,
+  _Uploader: FormUploader,
 });
