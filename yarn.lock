@@ -2998,10 +2998,10 @@ fraction.js@^4.3.7:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
-frosty-native@^0.0.119:
-  version "0.0.119"
-  resolved "https://registry.yarnpkg.com/frosty-native/-/frosty-native-0.0.119.tgz#48f47112fd91a9c5f7a106768f1220bd3c295309"
-  integrity sha512-j0idAekiXknxEOjnHrFcub316gbu89kQOYXByB0Q5dMfF2WaAfwuF1NJdrVwamgliOUgmu7CHAbGb5/WzFcAqQ==
+frosty-native@^0.0.120:
+  version "0.0.120"
+  resolved "https://registry.yarnpkg.com/frosty-native/-/frosty-native-0.0.120.tgz#6aafd946ab73a7ddccb3ae95bb82ded75cb599d5"
+  integrity sha512-rfPu95YHvX/kQTlOl0SZmbk7qvbZo4uEZyEvGvb9Ik9o99oB1mgGlkJFwQMwGx8jpHKD7yiDWLIcUC4uXE+GNA==
   dependencies:
     "@babel/core" "^7.26.10"
     "@babel/preset-env" "^7.26.9"
