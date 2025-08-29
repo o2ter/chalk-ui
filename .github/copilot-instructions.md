@@ -20,7 +20,6 @@
 ### Hook Patterns
 - **Composite Hooks**: `useForm()` combines context + group path; `useField()` handles validation + error state
 - **Path-Based State**: Form fields use dot-notation paths (`user.profile.name`) with lodash path utilities
-- **Validator Integration**: `useField().useValidator()` for async validation with cleanup
 
 ## Development Workflow
 
