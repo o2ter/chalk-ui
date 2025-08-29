@@ -2998,10 +2998,10 @@ fraction.js@^4.3.7:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
-frosty-native@^0.0.120:
-  version "0.0.120"
-  resolved "https://registry.yarnpkg.com/frosty-native/-/frosty-native-0.0.120.tgz#6aafd946ab73a7ddccb3ae95bb82ded75cb599d5"
-  integrity sha512-rfPu95YHvX/kQTlOl0SZmbk7qvbZo4uEZyEvGvb9Ik9o99oB1mgGlkJFwQMwGx8jpHKD7yiDWLIcUC4uXE+GNA==
+frosty-native@^0.0.121:
+  version "0.0.121"
+  resolved "https://registry.yarnpkg.com/frosty-native/-/frosty-native-0.0.121.tgz#b0e53bf5b586a349c7f5d7ffbadc2572d6f495b9"
+  integrity sha512-SKvbGaNcYstTdbhr5ESP6rs6eO1WA9Ra4K7iJy3iRHuT1rkLKqqUh7kejZipzEPpEe2UWutXyIpRA7oMDSMN5A==
   dependencies:
     "@babel/core" "^7.26.10"
     "@babel/preset-env" "^7.26.9"
@@ -3012,7 +3012,7 @@ frosty-native@^0.0.120:
     copy-webpack-plugin "^13.0.0"
     core-js "^3.41.0"
     file-loader "^6.2.0"
-    frosty "^0.0.101"
+    frosty "^0.0.102"
     lodash "^4.17.21"
     terser-webpack-plugin "^5.3.14"
     ts-node "^10.9.2"
@@ -3020,24 +3020,6 @@ frosty-native@^0.0.120:
     typescript "^5.7.3"
     webpack "^5.98.0"
     webpack-cli "^6.0.1"
-
-frosty@^0.0.101:
-  version "0.0.101"
-  resolved "https://registry.yarnpkg.com/frosty/-/frosty-0.0.101.tgz#5ec9733b2d156b0c91f6961d6cda10667005f8e2"
-  integrity sha512-0ppgUwwBCyS5ltC66vf0pnU2qqdbygxeHYuFettc8mfi5B6XC1Bo1+nyfLmB5j4KWGqbuX+IIOZ9hla7IhDQKg==
-  dependencies:
-    "@o2ter/utils-js" "^0.0.19"
-    "@types/jsdom" "^21.1.7"
-    "@types/lodash" "^4.17.16"
-    autoprefixer "^10.4.21"
-    csstype "^3.1.3"
-    jsdom "^26.0.0"
-    lodash ">=4.17.21"
-    myers.js "^0.0.20"
-    nextick "^0.0.2"
-    postcss "^8.5.3"
-    postcss-js "^4.0.1"
-    postcss-nested "^7.0.2"
 
 frosty@^0.0.102:
   version "0.0.102"
