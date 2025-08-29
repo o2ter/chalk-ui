@@ -28,6 +28,10 @@
 - `yarn start` - Dev server using Frosty's development server for `tests/server/app.tsx`
 - `yarn test` - Jest with TypeScript preset
 
+### Import Aliases
+- Use `~/` for tests (configured in Jest) but not code under `src/`
+- External imports use standard module resolution
+
 ### File Structure Rules
 - All exports flow through cascade: `src/index.ts` → `src/components/index.ts` → `src/components/Form/index.ts`
 - Each component directory has: `index.tsx` (component), `context.ts` (state), `types.ts` (TypeScript)
