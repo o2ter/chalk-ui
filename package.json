@@ -4,6 +4,16 @@
   "main": "dist/index",
   "module": "dist/index",
   "types": "dist/index",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*"
+    }
+  },
   "files": [
     "dist/*"
   ],
