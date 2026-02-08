@@ -24,7 +24,7 @@
 //
 
 import _ from 'lodash';
-import { ElementNode } from 'frosty';
+import { ElementNode, useFormState } from 'frosty';
 import { FormState } from './types';
 import { FormContext, FormInternalContext } from './context';
 
@@ -59,5 +59,9 @@ export const FormBase = <Values extends object>({
   onLoading,
   children,
 }: FormProps<Values>) => {
+
+  const state = useFormState<Partial<Values>>(initialValues ?? {}, async (action, state) => {
+
+  });
 
 };
