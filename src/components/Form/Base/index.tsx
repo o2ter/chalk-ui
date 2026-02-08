@@ -61,17 +61,21 @@ export const FormBase = <Values extends object>({
 }: FormProps<Values>) => {
 
   const [touched, setTouched] = useState<true | Record<string, boolean>>(validateOnMount ? true : {});
-  const state = useFormState<Partial<Values>>(initialValues ?? {}, async (action, state, error) => {
-    switch (action) {
-      case 'submit': {
-      } break;
-      case 'reset': {
-      } break;
-      case 'error': {
-      } break;
-      default: {
-      } break;
-    }
+  const state = useFormState<Partial<Values>>({
+    initialValues: initialValues ?? {},
+    activity,
+    callback: async(action, state, error) => {
+      switch (action) {
+        case 'submit': {
+        } break;
+        case 'reset': {
+        } break;
+        case 'error': {
+        } break;
+        default: {
+        } break;
+      }
+    },
   });
 
 };
