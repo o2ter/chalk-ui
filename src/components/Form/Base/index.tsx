@@ -24,7 +24,7 @@
 //
 
 import _ from 'lodash';
-import { ElementNode, useFormState } from 'frosty';
+import { ElementNode, useFormState, useState } from 'frosty';
 import { FormState } from './types';
 import { FormContext, FormInternalContext } from './context';
 
@@ -60,6 +60,7 @@ export const FormBase = <Values extends object>({
   children,
 }: FormProps<Values>) => {
 
+  const [touched, setTouched] = useState<true | Record<string, boolean>>(validateOnMount ? true : {});
   const state = useFormState<Partial<Values>>(initialValues ?? {}, async (action, state) => {
 
   });
