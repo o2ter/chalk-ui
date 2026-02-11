@@ -1,7 +1,7 @@
 # AI Coding Agent Instructions
 
 ## Project Overview
-`@o2ter/chalk-ui` is a React UI component library built on the **Frosty framework** (JSX import source). It uses a sophisticated multi-platform build system that generates separate bundles for `.native`, `.server`, and `.web` platforms using module suffixes in Rollup.
+`@o2ter/chalk-ui` is a Frosty UI component library built on the **Frosty framework** (JSX import source). It uses a sophisticated multi-platform build system that generates separate bundles for `.native`, `.server`, and `.web` platforms using module suffixes in Rollup.
 
 ## Architecture & Key Patterns
 
