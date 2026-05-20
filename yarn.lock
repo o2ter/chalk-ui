@@ -3083,10 +3083,10 @@ frosty@^0.0.121:
     postcss-js "^5.0.0"
     postcss-nested "^7.0.2"
 
-frosty@^0.0.153:
-  version "0.0.153"
-  resolved "https://registry.yarnpkg.com/frosty/-/frosty-0.0.153.tgz#b575581fd31a4d563d218767ccdab88eaa9fda9d"
-  integrity sha512-RkYvFAJQTaZmk+GT16cq2lObilSgjg9e1cfIytBH1Mrq7zR3yY0vAkdEZRFrGexpkir58E3+qskUe2HfTcKuIA==
+frosty@^0.0.155:
+  version "0.0.155"
+  resolved "https://registry.yarnpkg.com/frosty/-/frosty-0.0.155.tgz#fc2c884c3dc06c4f69587cbf1b1f7ee9051efcf4"
+  integrity sha512-wroXAMLocBJaB7C5w6aFRWhJh+7q5CxAZI6HWpEsaxuQRRdGPej9x1TlAbDrSxxQj5pRzzUiPLODRHQ173mVBg==
   dependencies:
     "@o2ter/utils-js" "^0.0.19"
     "@types/jsdom" "^21.1.7"
