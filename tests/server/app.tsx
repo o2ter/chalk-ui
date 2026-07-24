@@ -25,6 +25,7 @@
 
 import _ from 'lodash';
 
+// @ts-expect-error -- side-effect stylesheet import resolved by bundler
 import './app.scss';
 
 export const App = () => {
